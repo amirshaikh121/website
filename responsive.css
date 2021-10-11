@@ -1,0 +1,134 @@
+/******************************************** media queries For small Device ********************************** */
+
+@media only screen and (max-width: 480px) {
+  .bitcoin2 {
+    max-width: 100%;
+    height: 86px;
+    position: absolute;
+    right: 0;
+  }
+  .main {
+    padding-top: 152px;
+  }
+  .main-para {
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 160px;
+  }
+  .small-para {
+    font-size: 16px;
+    width: 100%;
+  }
+  .btn-2 {
+    padding: 9px;
+  }
+  .btn-1 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 6px 60px 6px 60px;
+  }
+  .flex-items {
+    margin: 6px 0px 10px 0px;
+  }
+  .bitcoin {
+    display: none;
+  }
+  .title {
+    margin: 50px 0 0 0;
+  }
+  .line3 {
+    width: 209px;
+    bottom: -3px;
+    left: 5px;
+  }
+  .line2 {
+    display: none;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    justify-content: center;
+  }
+  .item {
+    border-radius: 23px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+}
+@media only screen and (max-width: 328px) {
+  .days {
+    left: 60px;
+  }
+}
+
+/************************************************* Media Query For Tabs ************************************ */
+
+@media only screen and (min-width: 481px) and (max-width: 992px) {
+  .main {
+    margin-bottom: 2rem;
+  }
+  .main-para {
+    font-size: 40px;
+    width: 100%;
+    margin-top: 195px;
+  }
+  .small-para {
+    font-size: 21px;
+    width: 90%;
+  }
+  .bitcoin2 {
+    height: 123px;
+    right: 7px;
+  }
+  .bitcoin {
+    display: none;
+  }
+  .line2 {
+    display: none;
+  }
+  .title {
+    margin: 0px 0px 3px 70px;
+  }
+  .container {
+    justify-content: center;
+  }
+  .line3 {
+    width: 265px;
+    bottom: 2px;
+    left: 71px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1515px) {
+  .main {
+    padding-top: 2rem;
+    margin-bottom: 9rem;
+  }
+  .bitcoin2 {
+    right: 19px;
+    max-width: 100%;
+  }
+  .main-para {
+    width: 86%;
+  }
+  .small-para {
+    width: 48%;
+  }
+  .bitcoin {
+    left: 7px;
+  }
+  .line2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1228px) {
+  .small-para {
+    width: 64%;
+  }
+  .bitcoin {
+    height: 36%;
+  }
+}

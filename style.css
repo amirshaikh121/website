@@ -1,0 +1,209 @@
+body {
+  background-color: #f1f1f1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/*------------------------------- Navbar ---------------- */
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #6c62ff;
+}
+.container-fluid {
+  margin-left: 51px;
+}
+.navbar-nav {
+  margin-left: auto;
+  color: white !important;
+}
+.navbar-nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(244, 244, 250);
+  text-underline-offset: 0.4em;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+}
+
+/*------------------------------ Main Section ------------------------- */
+.main {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.flex-items {
+  margin: 20px 0px 20px 0px;
+}
+.main-para {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Balsamiq Sans", cursive;
+  width: 50%;
+  margin-top: 160px;
+  text-align: center;
+}
+.line {
+  width: 15%;
+  height: 3px;
+  background-color: black;
+}
+.small-para {
+  font-size: 22px;
+  font-weight: 640;
+  width: 43%;
+  text-align: center;
+}
+.btn-1 {
+  background-color: #464758;
+  color: #e2dddd;
+  border-radius: 28px;
+  font-size: 18px;
+  padding: 12px;
+  font-weight: 500;
+  margin: 0px 12px 0px 12px;
+}
+.btn-1:hover {
+  background-color: #3a40bd;
+}
+.btn-2 {
+  background-color: #f1f1f1;
+  border-radius: 34px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0px 13px 0px 13px;
+}
+.btn-2:hover {
+  background-color: #3a40bd;
+  color: white;
+}
+.bitcoin {
+  position: absolute;
+  bottom: -16px;
+  height: 46%;
+  left: 60px;
+}
+.bitcoin2 {
+  height: 139px;
+  position: absolute;
+  top: 79px;
+  right: 73px;
+}
+
+/******************************** Featured Project **************************** */
+.title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  margin: 102px 0px 38px 77px;
+}
+.line2 {
+  background-color: black;
+  width: 266px;
+  height: 3px;
+  position: absolute;
+  bottom: -73px;
+  left: 76px;
+}
+.line3 {
+  background-color: black;
+  width: 389px;
+  height: 3px;
+  position: relative;
+  bottom: 31px;
+  left: 82px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+}
+.item {
+  height: 320px;
+  width: 320px;
+  background-color: #e8dcf1;
+  border-radius: 30px;
+  padding: 15px 20px;
+  margin: 20px;
+}
+
+.brown {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #c08d79;
+  display: inline-block;
+}
+.days {
+  height: 20px;
+  width: 93px;
+  border-radius: 13px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  left: 121px;
+  bottom: 20px;
+}
+.circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 12px;
+  background-color: rebeccapurple;
+  text-align: center;
+  top: 3px;
+  left: 7px;
+}
+.text {
+  color: rebeccapurple;
+  font-size: 12px;
+  position: absolute;
+  right: 16px;
+  top: 1px;
+  font-weight: 600;
+}
+h2 {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.blue-text {
+  font-size: 25px;
+  color: rebeccapurple;
+  font-weight: 500;
+}
+.small-text {
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+.lite-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lite-flex .small-text {
+  margin-top: 1.4rem;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+.lite-flex .blue-text {
+  font-size: 25px;
+  color: rebeccapurple;
+  font-weight: 400;
+}
+
+
